@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'snacks.apps.SnacksConfig', # Adding snacks app to my project applications
+    'hello401.apps.Hello401Config',#a1
+    
 
 ]
 
