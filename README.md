@@ -37,4 +37,21 @@ urlpatterns = [
     
 ]
 ```
+____________________________________________
+## to add images:
+- in the `settings.py` ---> `INSTALLED_APPS` --->add `'django.contrib.staticfiles',`
+- in the `settings.py` ---> add:
+```
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+   os.path.join(BASE_DIR, "static"),
+   ]
+```
+- in the high level rout ~ create `static`folder and make `img`folder inside it
+- in `Html` file add :
+```
+{% load static %}
+    <img src="{% static "img/my_img.png" %}" alt="My image">
+```
+
 

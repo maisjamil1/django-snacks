@@ -37,9 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    # 'main.apps.MainConfig',#img
+    'django.contrib.staticfiles',#img
     'snacks.apps.SnacksConfig', # Adding snacks app to my project applications
     'hello401.apps.Hello401Config',#a1
+
     
 
 ]
@@ -123,3 +125,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+   os.path.join(BASE_DIR, "static"),
+   ]
