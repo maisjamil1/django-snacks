@@ -6,6 +6,7 @@
 - django-admin startproject name_of_project .
 - `python manage.py runserver`
 - `python manage.py startapp name_of_app`
+-to run the test`python manage.py test`
 ____________________________________________
 - in the `settings.py` ---> `INSTALLED_APPS` --->add the app to project applications `'snacks.apps.SnacksConfig',`
 
