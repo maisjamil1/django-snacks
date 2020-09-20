@@ -3,6 +3,7 @@
 - `poetry init -n`
 - `poetry add django`
 - `poetry add --dev black`
+- `poetry shell`
 - django-admin startproject name_of_project .
 - `python manage.py runserver`
 - `python manage.py startapp name_of_app`
