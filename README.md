@@ -15,7 +15,7 @@ ____________________________________________
 - in `project/urls.py`---> `urlpatterns` ---> add `path('snacksapp/', include('snacks.urls')),`
 - inside `snacks folder` create `urls.py`
 ____________________________________________
-- in the high level rout ~ create `templates`folder and make some `HTML` pages inside it
+- in the root ~ create `templates`folder and make some `HTML` pages inside it
 - go to `settings.py`--->TEMPLATES--->add `'DIRS':[os.path.join(BASE_DIR, 'templates')],`
 
 
@@ -49,7 +49,7 @@ STATICFILES_DIRS = [
    os.path.join(BASE_DIR, "static"),
    ]
 ```
-- in the high level rout ~ create `static`folder and make `img`folder inside it
+- in the root ~ create `static`folder and make `img`folder inside it
 - in `Html` file add :
 ```
 {% load static %}
