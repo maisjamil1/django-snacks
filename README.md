@@ -16,6 +16,7 @@ ____________________________________________
 - inside `snacks folder` create `urls.py`
 ____________________________________________
 - in the root ~ create `templates`folder and make some `HTML` pages inside it
+- go to `settings.py`--->add `import os`
 - go to `settings.py`--->TEMPLATES--->add `'DIRS':[os.path.join(BASE_DIR, 'templates')],`
 
 
